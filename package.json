@@ -19,12 +19,15 @@
     "svg",
     "texture",
     "pattern",
-    "element",
     "virtual",
+    "element",
     "jsx",
     "react"
   ],
   "scripts": {
     "prepublishOnly": "tsc"
+  },
+  "dependencies": {
+    "velements": "^1.0.1"
   }
 }
