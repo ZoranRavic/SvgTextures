@@ -1,0 +1,30 @@
+{
+  "name": "svg-textures",
+  "version": "1.0.0",
+  "description": "SVG utilities based on Virtual Elements",
+  "author": "Zoran Ravic <contact@zoranravic.com> (zoranravic.com)",
+  "license": "MIT",
+  "repository": "ZoranRavic/SvgTextures",
+  "homepage": "https://zoranravic.com/svg-textures",
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "index.js",
+    "index.d.ts",
+    "lib/**/*.js",
+    "lib/**/*.d.ts"
+  ],
+  "keywords": [
+    "svg",
+    "texture",
+    "pattern",
+    "element",
+    "virtual",
+    "jsx",
+    "react"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc"
+  }
+}
