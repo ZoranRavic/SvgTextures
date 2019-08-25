@@ -18,7 +18,7 @@ export function svgRect(...patterns: Array<VElement>): VElement
         h('defs', null, patterns),
         patterns.map(p =>
             h('rect', {
-                fill: `url(#${p.attrs.id})`,
+                fill: `url(#${p.id})`,
                 x: 0,
                 y: 0,
                 height: '100%',
